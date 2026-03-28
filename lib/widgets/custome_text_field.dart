@@ -4,11 +4,11 @@ class CustomTextField extends StatelessWidget {
   const CustomTextField({
     super.key,
     required this.text,
-    this.maxLines = 1, // افتراضي سطر واحد للعنوان
+    this.maxLines = 1,
   });
 
   final String text;
-  final int? maxLines; // لو بعتناه null هيوسع للمالانهاية
+  final int? maxLines;
 
   @override
   Widget build(BuildContext context) {
@@ -16,11 +16,10 @@ class CustomTextField extends StatelessWidget {
 
       maxLines: maxLines,
       cursorColor: Colors.amber,
-      style: const TextStyle(color: Colors.white), // لون الكتابة
+      style: const TextStyle(color: Colors.white),
       decoration: InputDecoration(
         hintText: text,
         hintStyle: const TextStyle(color: Colors.amber),
-        // شكل الحدود الافتراضي
         border: buildBorder(),
         enabledBorder: buildBorder(),
         focusedBorder: buildBorder(Colors.amber),
