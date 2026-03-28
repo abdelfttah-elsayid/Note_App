@@ -25,7 +25,7 @@ flutter:
 
   # 1. قسم الصور والأيقونات (Assets)
   assets:
-    - assets
+  #  - assets
     # - assets/icons/telegram_outline.svg
 
   # 2. قسم الخطوط (Fonts)

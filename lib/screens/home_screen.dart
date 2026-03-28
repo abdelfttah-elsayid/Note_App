@@ -8,6 +8,12 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
      body: NotesViewBody(),
+
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        backgroundColor: Colors.black,
+        child: const Icon(Icons.add),
+      ),
     );
   }
 }
