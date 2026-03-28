@@ -9,7 +9,6 @@ class AddNoteBottomSheet extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      // Padding عشان نرفع المحتوى فوق الكيبورد
       padding: EdgeInsets.only(
         left: 16,
         right: 16,
@@ -20,7 +19,6 @@ class AddNoteBottomSheet extends StatelessWidget {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            // الجزء الخاص بالعنوان "Add Note" والسطر اللي تحته
             Column(
               children: [
                 const Text(
