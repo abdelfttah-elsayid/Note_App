@@ -8,25 +8,19 @@ environment:
   sdk: ^3.12.0-113.1.beta
 
 dependencies:
+  flutter_bloc: ^9.1.1
   flutter:
     sdk: flutter
   font_awesome_flutter: ^11.0.0
   cupertino_icons: ^1.0.8
   flutter_svg: ^2.0.10+1
-
-  # --- إضافات الـ Hive (التخزين) ---
   hive: ^2.2.3
   hive_flutter: ^1.1.0
-
-  # --- إضافات الـ Bloc (إدارة الحالة) ---
-  flutter_bloc: ^8.1.3
-
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^3.0.0
 
-  # --- أدوات توليد الكود (ضرورية للـ Hive) ---
   build_runner: ^2.4.8
   hive_generator: ^2.0.1
 flutter:
