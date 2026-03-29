@@ -6,7 +6,7 @@ class CustomTextField extends StatelessWidget {
     required this.text,
     this.maxLines = 1,
     this.minLines=1,
-    this.onSaved, // ضفنا دي عشان ناخد الداتا بعدين
+    this.onSaved,
   });
   final void Function(String?)? onSaved;
   final String text;
