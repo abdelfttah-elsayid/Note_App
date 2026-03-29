@@ -8,6 +8,7 @@ environment:
   sdk: ^3.12.0-113.1.beta
 
 dependencies:
+  modal_progress_hud_nsn: ^0.5.1
   flutter_bloc: ^9.1.1
   flutter:
     sdk: flutter
@@ -26,13 +27,6 @@ dev_dependencies:
 flutter:
   uses-material-design: true
 
-  # 1. قسم الصور والأيقونات (Assets)
-#  assets:
-  #  - assets
-    # - assets/icons/telegram_outline.svg
-
-  # 2. قسم الخطوط (Fonts)
-  # تأكد من وجود الملف في assets/fonts/Montserrat-Regular.ttf
   fonts:
     - family: MontserratSemi
       fonts:
